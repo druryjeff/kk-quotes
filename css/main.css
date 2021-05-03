@@ -109,8 +109,14 @@ main {
 }
 
 main p {
-  font-size: 2rem;
-  max-width: 80%;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 40em){
+  main p {
+    font-size: 2rem;
+    max-width: 80%;
+  }
 }
 
 footer {
