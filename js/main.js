@@ -111,5 +111,3 @@ document.body.addEventListener('click',function(){
 })
 
 displayQuote();
-
-document.querySelector('footer a').target = '_blank';
